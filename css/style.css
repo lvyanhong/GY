@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.logo {
+	padding:0;
+}
+#myCarousel {
+	margin: auto;
+}
+#navbar-collapse ul {
+	margin-top:0;
+}
+.carousel-inner img
+{
+    margin: 0 auto;
+}
+.carousel-control
+{
+    font-size: 100px;
+}

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>关爱</title>	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='http://fonts.useso.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+	<script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/npm.js"></script>
+    <script type="text/javascript" src="./js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script> 
+	<script type="text/javascript" src="js/SmoothScroll.js"></script>
+	<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+	<script type="text/javascript" src="js/owl.carousel.js"></script>  
+    <script type="text/javascript">
+   $(function(){
+    	$('#myCarousel').carousel({
+           interval : 4000,
+         });
+
+    	//设置垂直居中
+	$('.carousel-control').css('line-height', $('.carousel-inner img').height() + 'px');
+	$(window).resize(function () {
+	var $height = $('.carousel-inner img').eq(0).height() || 
+				  $('.carousel-inner img').eq(1).height() || 
+				  $('.carousel-inner img').eq(2).height();
+		$('.carousel-control').css('line-height', $height + 'px');
+	});
+    });
+   </script>
+</head>
+<body>
+<!-- 导航开始   navbar-fixed-top -->
+<!-- <header class="clearfix desktop header"></header>  -->
+<nav class="navbar navbar-fixed-top transparent" >
+	<div class="container">
+		<div class="navbar-header">
+		<h3>Care For</h3>	
+		<button type="button" class="navbar-toggle" data-toggle="co llapse" data-target="#navbar-llapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+		</button>
+		</div>
+		<div class="collapse navbar-collapse " id="navbar-collapse">
+			<ul class="nav navbar-nav navbar-right ">
+				<li class="active"><a href="#"><!-- <span class="glyphicon glyphicon-home"></span>  -->首页</a></li>				
+				<li><a href="./my_list.html"> 公益项目</a></li>
+				<!-- <li><a href="#"> 爱心雨露</a></li> -->
+				<!--<li><a href="my_Activity.html"> 公益活动</a></li>-->
+				<li><a href="Union_team.html"> 公益联盟</a></li>				
+				<li><a href="Feedback.html">意见反馈</a></li>
+			</ul>	
+		</div>
+	</div>
+</nav> 
+
+<!-- 导航结束 -->
+<!-- 轮播开始 -->
+ <div id="myCarousel" class="carousel slide">
+  <ol class="carousel-indicators">
+  	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+  	<li data-target="#myCarousel" data-slide-to="1"></li>
+  	<li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+   <div class="carousel-inner">
+  	<div class="item active" style="background:#000000">
+  		<img src="img/slide1.png" alt="图一">
+  	</div>
+  	<div class="item" style="background:#000000">
+  		<img src="img/slide2.png" alt="二">
+  	</div>
+  	<div class="item" style="background:#000000">
+  		<img src="img/slide3.png" alt="图三">
+  	</div>
+  </div>
+  <a href="#myCarousel" data-slide="prev"  class="carousel-control left"></a>
+  <a href="#myCarousel" data-slide="next" class="carousel-control right"></a>
+</div> 
+<!--左右箭头 &lsaquo; &rsaquo; -->
+<!-- 公益项目开始 -->
+<div id="works-section">
+<div class="container">
+	<div class="section-title text-center center">
+		<h2>公益项目</h2>
+		<p>残缺的亲情！ 谁来呵护<span><strong>留守儿童</strong></span>的心？</p>
+		<div class="row">
+			<div class="portfolio-items">
+			<!-- 图一开始 -->
+				<div class="col-sm-6 col-md-3 col-lg-3 web ">
+					<div class="portfolio-item">
+					<div class="hover-bg">
+                            <!-- 这个地方放大图./img/01.jpg -->
+							<!-- <a href="./img/01.jpg" rel="prettyPhoto"> -->
+							<div class="hover-text">
+								<h4>公益行动1</h4>
+								<small>残缺的亲情！谁来呵护留守儿童的心？</small>
+								<div class="clearfix"></div>
+								<i class="glyphicon" ><abbr title="我要捐款">❤</abbr></i></a>
+								<!-- <img src="img/jz.png" alt="我要捐款" style="padding-top:30px;" width="60px" height="60px"> -->
+														
+							</div>
+							<img src="./img/m01.jpg" class="img-responsive img-rounded">
+							</a>
+							</div>
+					</div>
+				</div>
+				<!-- 图一结束 -->
+
+				<!-- 图二开始 -->
+				<div class="col-sm-6 col-md-3 col-lg-3 web ">
+					<div class="portfolio-item">
+					<div class="hover-bg">
+                            <!-- 这个地方放大图./img/01.jpg -->
+							<!-- <a href="#" rel="prettyPhoto"> -->
+							<div class="hover-text">
+								<h4>公益行动1</h4>
+								<small>残缺的亲情！谁来呵护留守儿童的心？</small>
+								<div class="clearfix"></div>
+								<!-- <i class="glyphicon glyphicon-plus"></i> -->
+								<a href="#" alt="dsf"><i class="glyphicon" >❤</i></a>								
+							</div>
+							<img src="./img/m03.jpg" class="img-responsive img-rounded">
+							</a>
+							</div>
+					</div>
+				</div>
+				<!-- 图二结束 -->
+
+				<!-- 图三开始 -->
+				<div class="col-sm-6 col-md-3 col-lg-3 web ">
+					<div class="portfolio-item">
+					<div class="hover-bg">
+                            <!-- 这个地方放大图./img/01.jpg -->
+							<!-- <a href="#" rel="prettyPhoto"> -->
+							<div class="hover-text">
+								<h4>公益行动1</h4>
+								<small>残缺的亲情！谁来呵护留守儿童的心？</small>
+								<div class="clearfix"></div>
+								<a href="#" alt="dsf"><i class="glyphicon" >❤</i></a>
+								<!-- <i class="glyphicon glyphicon-plus"></i>								 -->
+							</div>
+							<img src="./img/m01.jpg" class="img-responsive img-rounded">
+							</a>
+							</div>
+					</div>
+				</div>
+				<!-- 图三结束 -->
+
+					<!-- 图四开始 -->
+				<div class="col-sm-6 col-md-3 col-lg-3 web ">
+					<div class="portfolio-item">
+					<div class="hover-bg">
+                            <!-- 这个地方放大图./img/01.jpg -->
+							<!-- <a href="#" rel="prettyPhoto"> -->
+							<div class="hover-text">
+								<h4>公益行动1</h4>
+								<small>残缺的亲情！谁来呵护留守儿童的心？</small>
+								<div class="clearfix"></div>
+								<a href="#" alt="dsf"><i class="glyphicon" >❤</i></a>
+								<!-- <i class="glyphicon glyphicon-plus"></i>								 -->
+							</div>
+							<img src="./img/m03.jpg" class="img-responsive img-rounded">
+							</a>
+							</div>
+					</div>
+				</div>
+				<!-- 图四结束 -->
+
+					<!-- 图五开始 -->
+				<div class="col-sm-6 col-md-3 col-lg-3 web ">
+					<div class="portfolio-item">
+					<div class="hover-bg">
+                            <!-- 这个地方放大图./img/01.jpg -->
+							<!-- <a href="#" rel="prettyPhoto"> -->
+							<div class="hover-text">
+								<h4>公益行动1</h4>
+								<small>残缺的亲情！谁来呵护留守儿童的心？</small>
+								<div class="clearfix"></div>
+								<!-- <i class="glyphicon glyphicon-plus"></i>								 -->
+								<a href="#" alt="dsf"><i class="glyphicon" >❤</i></a>
+							</div>
+							<img src="./img/m03.jpg" class="img-responsive img-rounded">
+							</a>
+							</div>
+					</div>
+				</div>
+				<!-- 图五结束 -->
+
+					<!-- 图六开始 -->
+				<div class="col-sm-6 col-md-3 col-lg-3 web ">
+					<div class="portfolio-item">
+					<div class="hover-bg">
+                            <!-- 这个地方放大图./img/01.jpg -->
+							<!-- <a href="#" rel="prettyPhoto"> -->
+							<div class="hover-text">
+								<h4>公益行动1</h4>
+								<small>残缺的亲情！谁来呵护留守儿童的心？</small>
+								<div class="clearfix"></div>
+								<!-- <i class="glyphicon glyphicon-plus"></i>								 -->
+								<a href="#" alt="dsf"><i class="glyphicon" >❤</i></a>
+							</div>
+							<img src="./img/m04.jpg" class="img-responsive img-rounded">
+							</a>
+							</div>
+					</div>
+				</div>
+				<!-- 图六结束 -->
+
+					<!-- 图七开始 -->
+				<div class="col-sm-6 col-md-3 col-lg-3 web ">
+					<div class="portfolio-item">
+					<div class="hover-bg">
+                            <!-- 这个地方放大图./img/01.jpg -->
+							<!-- <a href="#" rel="prettyPhoto"> -->
+							<div class="hover-text">
+								<h4>公益行动1</h4>
+								<small>残缺的亲情！谁来呵护留守儿童的心？</small>
+								<div class="clearfix"></div>
+								<!-- <i class="glyphicon glyphicon-plus"></i>								 -->
+								<a href="#" alt="dsf"><i class="glyphicon" >❤</i></a>
+							</div>
+							<img src="./img/m03.jpg" class="img-responsive img-rounded">
+							</a>
+							</div>
+					</div>
+				</div>
+				<!-- 图七结束 -->
+					<!-- 图八开始 -->
+				<div class="col-sm-6 col-md-3 col-lg-3 web ">
+					<div class="portfolio-item">
+					<div class="hover-bg">
+                            <!-- 这个地方放大图./img/01.jpg -->
+							<!-- <a href="#" rel="prettyPhoto"> -->
+							<div class="hover-text">
+								<h4>公益行动1</h4>
+								<small>残缺的亲情！谁来呵护留守儿童的心？</small>
+								<div class="clearfix"></div>
+								<!-- <i class="glyphicon glyphicon-plus"></i>								 -->
+								<a href="#" alt="dsf"><i class="glyphicon" >❤</i></a>
+							</div>
+							<img src="./img/m01.jpg" class="img-responsive img-rounded">
+							</a>
+							</div>
+					</div>
+				</div>
+				<!-- 图八结束 -->
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- 公益项目结束 -->
+
+
+<!-- 爱心雨露开始 -->
+<div class="lo_nav">
+<div class="container">
+<div class="outer-module-viewport border dashed">
+	<div class="container vertical-viewport viewport-animate in-view">
+		<div class="row vertical-align viewport-animate-fade">
+			<div class="col-sm-6 col-sm-push-6">
+				<div class="viewport-animate-draw">
+					<div class="scale-svg">
+					<iframe  src="http://player.youku.com/embed/XMTU0MjI3NjY0NA==" frameborder=0 allowfullscreen></iframe>					
+						<!-- <svg class="center-block stroke-accent-darker">
+						<use xlink:href="#website-site-illustration"></use>
+						 </svg> -->
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-sm-pull-6">
+				<div class="text-accent text-uppercase text-spaced">
+					<h2>❉滋润·嫩芽❉</h2>
+					<ul class="sub-lead offset-small">						
+						<li class="sub-li"><a href="#">◇&nbsp;让您的爱心像雨露挥洒滋润饥渴的新芽！</a></li>
+						<li class="sub-li"><a href="#">◇&nbsp;你是一个什么样的人，就会听到什么样的歌！</a></li>
+						<li class="sub-li"><a href="#">◇&nbsp;看到温暖的文，写着倔强的字，遇到正好的人！</a></li>
+						<li class="sub-li"><a href="#">◇&nbsp;让您的爱心像雨露挥洒滋润饥渴的新芽！</a></li>
+						<li class="sub-li"><a href="#">◇&nbsp;你是一个什么样的人，就会听到什么样的歌！</a></li>
+						<li class="sub-li"><a href="#">◇&nbsp;看到温暖的文，写着倔强的字，遇到正好的人！</a></li>
+						<li class="sub-li"><a href="#">◇&nbsp;你是一个什么样的人，就会听到什么样的歌！</a></li>
+						<li class="sub-li"><a href="#">◇&nbsp;看到温暖的文，写着倔强的字，遇到正好的人！</a></li>
+						<li class="sub-li"><a href="#">◇&nbsp;你是一个什么样的人，就会听到什么样的歌！</a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+  
+<!-- 爱心雨露结束 -->
+
+<!-- 公益联盟开始 -->
+<div class="text-lianmeng">
+	<div class="container">
+		<div class="con-center">
+			<h2>「公益联盟是什么」</h2>
+			<!-- <hr></hr> -->
+			<p>由各大基金会联合组成。通过这个统一联盟，将大力推动国内公益慈善事业的发展...</p>
+	    </div>
+	    <div class="img">
+	     <img src="img/lm01.jpg" class="img-circle img-responsive" alt="Cinque Terre" width="186" height="186"> 
+	     <img src="img/lm02.jpg" class="img-circle img-responsive" alt="Cinque Terre" width="186" height="186">
+	      <img src="img/lm03.jpg" class="img-circle img-responsive" alt="Cinque Terre" width="186" height="186"> 
+	     <img src="img/lm04.jpg" class="img-circle img-responsive" alt="Cinque Terre" width="186" height="186">
+	     <img src="img/lm05.jpg" class="img-circle img-responsive" alt="Cinque Terre" width="186" height="186">
+	    	
+	    </div>
+	</div>
+</div>
+<!-- 公益联盟结束 -->
+
+<!-- 爱现宣言开始 -->
+<div class="lo_declaration">
+<!-- <div class="bg_lo">
+	<img src="./img/ax.jpg">
+</div> -->
+<h2>爱心&nbsp;❤&nbsp;宣言</h2>
+<div class="container">    
+	<blockquote>残缺的亲情！谁来呵护留守儿童的心？奉献一份爱心，点燃一片希望;心点燃希望，奉献成就未来。<br/>让我们为需要的人撑起一片蔚蓝；将爱心传递永远。这里放什么不知道了！<br/>这里放什么O__O "…！放什么！到底放什么啊Σ( ° △ °|||)︴！
+	</blockquote>
+</div>
+</div>
+<!-- 爱宣言结束 -->
+<!-- 版权部分开始 -->
+<footer class="footer">
+<div class="fo_nav">
+	<p>Copyright © 2015 SydJS. Powered by </p>
+	<p style="vertical-align:super;">世界联盟公益组织&nbsp;●&nbsp;World Federation of public organizations</p>	
+	</div>	
+</footer>
+<!-- 版权结束 -->
+
+</body>
+</html>
